@@ -1,0 +1,16 @@
+[Unit]
+Description=Dashboard API Server
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/maayandashboard
+ExecStart=/bin/bash /home/ubuntu/maayandashboard/src/start_api_server.sh
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=dashboard-api
+
+[Install]
+WantedBy=multi-user.target 

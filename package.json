@@ -1,0 +1,22 @@
+{
+  "name": "maayandashboard",
+  "version": "1.0.0",
+  "description": "A data collection and visualization tool for marketing metrics. This tool collects data from Facebook Ads and Luma, calculates key marketing metrics, and displays them on a Geckoboard dashboard.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "puppeteer": "^24.2.1"
+  }
+}
