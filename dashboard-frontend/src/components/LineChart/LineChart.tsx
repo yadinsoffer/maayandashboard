@@ -42,15 +42,15 @@ const options: ChartOptions<'line'> = {
         display: false,
       },
       ticks: {
-        color: '#ffffff',
+        color: 'var(--foreground)',
       },
     },
     y: {
       grid: {
-        color: 'rgba(255, 255, 255, 0.1)',
+        color: 'rgba(0, 0, 0, 0.1)',
       },
       ticks: {
-        color: '#ffffff',
+        color: 'var(--foreground)',
         callback: function(value) {
           return `$${value.toLocaleString()}`;
         },
