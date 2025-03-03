@@ -1,0 +1,3 @@
+# Ignore everything in the root except dashboard-frontend
+/*
+!/dashboard-frontend 

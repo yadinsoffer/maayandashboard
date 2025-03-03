@@ -1,5 +1,9 @@
 {
+    "framework": "nextjs",
+    "installCommand": "cd dashboard-frontend && npm install",
     "buildCommand": "cd dashboard-frontend && npm run build",
     "outputDirectory": "dashboard-frontend/.next",
-    "framework": "nextjs"
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/dashboard-frontend/$1" }
+    ]
   }
