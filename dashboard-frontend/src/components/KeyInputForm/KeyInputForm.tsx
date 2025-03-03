@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { submitKey } from '@/lib/ec2-api';
+import { submitKey } from '../../../lib/ec2-api';
 
 interface KeyInputFormProps {
   onSuccess: () => void;
