@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -36,6 +38,11 @@ const nextConfig = {
   // Enable experimental features
   experimental: {
     // Remove serverActions as it's causing a warning
+  },
+  // Add webpack configuration for path aliases
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.join(__dirname, 'src');
+    return config;
   },
 };
 
