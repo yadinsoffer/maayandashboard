@@ -5,7 +5,7 @@ import MetricCard from '../components/MetricCard/MetricCard';
 import BarChart from '../components/BarChart/BarChart';
 import LineChart from '../components/LineChart/LineChart';
 import KeyInputForm from '../components/KeyInputForm/KeyInputForm';
-import { triggerDashboardUpdate } from '../lib/ec2-api';
+import { triggerDashboardUpdate } from '../components/utils/ec2-api';
 import type { DashboardData } from '../types/dashboard';
 
 const REFRESH_INTERVAL = 30000; // Refresh every 30 seconds
