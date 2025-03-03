@@ -3,7 +3,7 @@ import requests
 import json
 import sys
 import argparse
-
+# adding another word
 # Default API configuration for local testing
 LOCAL_API_URL = "http://localhost:5001"
 EC2_API_URL = "http://ec2-100-27-189-61.compute-1.amazonaws.com:5001"
