@@ -1,0 +1,6 @@
+{
+    "buildCommand": "cd dashboard-frontend && npm run build",
+    "outputDirectory": "dashboard-frontend/.next",
+    "framework": "nextjs",
+    "rootDirectory": "dashboard-frontend"
+  }
