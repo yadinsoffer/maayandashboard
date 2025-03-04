@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-
+//new deployment to github
 // Server-side environment variables need to be accessed directly
 const EC2_API_URL = 'http://ec2-100-27-189-61.compute-1.amazonaws.com:5001';
 // Hardcode the API key directly since we're having issues with environment variables
