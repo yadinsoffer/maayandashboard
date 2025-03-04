@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getLatestMetrics } from '../../../components/utils/db';
+import { getLatestMetrics } from '@/lib/db';
 
 export async function GET() {
     try {

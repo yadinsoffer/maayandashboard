@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { updateMetrics, updateDailyMetrics } from '../../../../components/utils/db';
+import { updateMetrics, updateDailyMetrics } from '@/lib/db';
 import { headers } from 'next/headers';
 
 const API_KEY = process.env.API_KEY;

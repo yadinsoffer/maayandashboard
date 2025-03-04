@@ -43,7 +43,7 @@ class Config:
             'api_version': 'v19.0',
             'ad_account_id': '1770605100340015'  # Facebook Ad Account ID
         }
-    
+
     @classmethod
     def get_luma_config(cls) -> Dict[str, str]:
         """Get Luma-specific configuration"""
