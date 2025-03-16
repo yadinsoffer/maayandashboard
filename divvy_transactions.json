@@ -1,0 +1,1701 @@
+{
+  "total_spend": 1940.63,
+  "transaction_count": 15,
+  "transactions": [
+    {
+      "id": "VHJhbnNhY3Rpb246MDE4ZGI3ODMtZGFhNi00MWU2LWJhNTQtMTgxNDU1NDlkNjQw",
+      "uuid": "txr_066rf0uqkp0udeik30a5aiem80",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "CLEAR",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPL*WG9AM87Y3",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "originalAuthTransactionId": "VHJhbnNhY3Rpb246ZTYwOTMyMjItZjQwNS00ZTcyLTllYjUtZjlkYmE2NGFkZTZi",
+      "originalAuthTransactionUuid": "txr_so4j48nk0l7757llv7dqcimudc",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "7836",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T20:46:31.000+00:00",
+      "updatedTime": "2025-03-15T20:46:33.000+00:00",
+      "authorizedTime": "2025-03-14T22:23:18.000+00:00",
+      "complete": false,
+      "pointsAwarded": 78,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 78.36,
+      "transactedAmount": 78.36,
+      "fees": 0.0,
+      "foreignExchangeFee": 0.0,
+      "receiptStatus": "NOT_ATTACHED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246YWU4YWVhNzMtYjQ1YS00NDYyLWE2NWUtZDU3Y2ExMmU5YTc3",
+      "uuid": "txr_lq5ekstkb92659iuqlua2bkqes",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "CLEAR",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPL*6F4UB6ZL3",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "originalAuthTransactionId": "VHJhbnNhY3Rpb246OWI1MTM1OWYtOTA2NC00NGIxLWJhYTktZDJmMWUyMGNiZjFi",
+      "originalAuthTransactionUuid": "txr_jd8jb7sgch2b3el9qbou435v3c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "2176",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T20:46:17.000+00:00",
+      "updatedTime": "2025-03-15T20:46:38.000+00:00",
+      "authorizedTime": "2025-03-14T22:23:23.000+00:00",
+      "complete": false,
+      "pointsAwarded": 21,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 21.76,
+      "transactedAmount": 21.76,
+      "fees": 0.0,
+      "foreignExchangeFee": 0.0,
+      "receiptStatus": "NOT_ATTACHED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246Njc0MzI0Y2YtZDhkOC00ODQ1LWJhZjMtNGM4N2Q1MDdjMTk1",
+      "uuid": "txr_ct1i9juor144benj9i3ta1u1ik",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "Amazon.com",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "2561",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T18:22:33.000+00:00",
+      "updatedTime": "2025-03-15T18:22:37.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 25.61,
+      "transactedAmount": 25.61,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MzBlOTBhYmEtOGU4MC00Mjk1LTk0MzItMjkwNDBkYzMwMmE3",
+      "uuid": "txr_63kglekeg119b51i5420rgo2ks",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPLACE PMTS",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "1632",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T18:22:28.000+00:00",
+      "updatedTime": "2025-03-15T18:22:30.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 16.32,
+      "transactedAmount": 16.32,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MWFiZmMyYzEtZGUwNy00MjUzLWEzZDQtODFmN2RkMzliNDI0",
+      "uuid": "txr_3avs5geu0t1578ukg7rtqedk4g",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPLACE PMTS",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "1305",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T10:34:14.000+00:00",
+      "updatedTime": "2025-03-15T10:34:18.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 13.05,
+      "transactedAmount": 13.05,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MDcyNDQxMTMtNGU5NS00ZDUyLTgzMjQtNmYwNDljZmJhYmZl",
+      "uuid": "txr_0si424qeil6l50p4ds29putbvo",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "Amazon.com",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "7734",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T08:53:41.000+00:00",
+      "updatedTime": "2025-03-15T08:53:45.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 77.34,
+      "transactedAmount": 77.34,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246M2U4MGFhNjktYTYxNS00YmI4LWI2NjktMDJkZjQzNGY5ZjFj",
+      "uuid": "txr_7q0akqd62l5rhdj90bfk6jsv3g",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "Amazon.com",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "15468",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T08:23:42.000+00:00",
+      "updatedTime": "2025-03-15T08:23:43.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 154.68,
+      "transactedAmount": 154.68,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246YmE3OTRjMTktMjRjZi00N2Q1LTg5MTEtYTM2NDRjMmUyYTIz",
+      "uuid": "txr_n9sko694pt3tb28hkdi4obha4c",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "Amazon.com",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "15468",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T08:13:42.000+00:00",
+      "updatedTime": "2025-03-15T08:13:44.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 154.68,
+      "transactedAmount": 154.68,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246NDUxNmMyYzQtMmQwYS00ODJmLWI4ZmMtY2YxMDIwZTk5OGJk",
+      "uuid": "txr_8kbc5h1d1942ve7sps821qconk",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "Amazon.com",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "10885",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-15T05:16:18.000+00:00",
+      "updatedTime": "2025-03-15T05:16:21.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 108.85,
+      "transactedAmount": 108.85,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MzlhZGViZjItZjNiNy00MTBlLThjNmUtODUzNDJhNTZiYWM1",
+      "uuid": "txr_76munsnjmt0gt33egkq2kllqok",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPLACE PMTS",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "41360",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-14T22:23:13.000+00:00",
+      "updatedTime": "2025-03-14T22:23:17.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 413.6,
+      "transactedAmount": 413.6,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246ZmJlNGU2N2ItNmE1ZS00MDM0LWE1YjItY2UxMTkxNzc0ZTk3",
+      "uuid": "txr_vfiecurabp0399dipo8p2tqeis",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": false,
+      "transactionType": "AUTHORIZATION",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "SP JAMALI GARDEN",
+      "merchantName": "Jamali Garden",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "78390",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-14T16:20:51.000+00:00",
+      "updatedTime": "2025-03-14T16:20:53.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 783.9,
+      "transactedAmount": 783.9,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDoxMjk2MjQyMQ==",
+      "cardUuid": "crd_dlh5eq7vnd7vlerqmrio27nj7s",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5992",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246Nzc5ZmZhMzktNDUyNy00MzJiLWE3NTItY2Y3Y2Y2YWQzNTE2",
+      "uuid": "txr_eufvkea54t1in9qiptufdb9l2o",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "CLEAR",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "ZOOM.COM 888-799-9666",
+      "merchantName": "Zoom.com",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "originalAuthTransactionId": "VHJhbnNhY3Rpb246MjcyZTdiNTItMTZlZC00YmNmLWI4MDEtZWQ4ZmQ0ZWNlNGE4",
+      "originalAuthTransactionUuid": "txr_4sn7mkgmtl5sve01tm7t9r74l0",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "1637",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-11T09:34:57.000+00:00",
+      "updatedTime": "2025-03-11T09:34:59.000+00:00",
+      "authorizedTime": "2025-03-11T02:02:38.000+00:00",
+      "complete": false,
+      "pointsAwarded": 16,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 16.37,
+      "transactedAmount": 16.37,
+      "fees": 0.0,
+      "foreignExchangeFee": 0.0,
+      "receiptStatus": "NOT_ATTACHED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "4814",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MGRkMTdlOTYtZmY5OS00MzYzLTllMzctZjU3ZTBiZWVkYmRm",
+      "uuid": "txr_1n8nt5nvj51m77hnulv0nrmrrs",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "CLEAR",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "MAGNIFIC AI",
+      "merchantName": "Magnific Ai",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "originalAuthTransactionId": "VHJhbnNhY3Rpb246ZTI4ODBjNjAtNjA0ZS00NGU2LTgxZjItN2QwYmIyMzFhNmE3",
+      "originalAuthTransactionUuid": "txr_sa40oo309p2ed0fifk5r4cd6ks",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "3900",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-06T11:59:40.000+00:00",
+      "updatedTime": "2025-03-06T11:59:48.000+00:00",
+      "authorizedTime": "2025-03-05T22:31:31.000+00:00",
+      "complete": false,
+      "pointsAwarded": 0,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 39.39,
+      "transactedAmount": 39.0,
+      "fees": 0.39,
+      "foreignExchangeFee": 0.39,
+      "receiptStatus": "NOT_ATTACHED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5734",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246ZTNhOTUxMTktNjU5MC00MTNhLTg2YWUtMDNlZDljNjYyZjdl",
+      "uuid": "txr_sekl26b5i10jl1le0fmpophffo",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "CLEAR",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "esr-live.com/gb",
+      "merchantName": "Live.com",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "originalAuthTransactionId": "VHJhbnNhY3Rpb246NGZmNzcyNTAtZDAwMi00NWEwLTk0MzQtOWEwMjkwZTNhZTIw",
+      "originalAuthTransactionUuid": "txr_9vrn4k6g092q151kj8191ote40",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "2990",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-05T11:54:42.000+00:00",
+      "updatedTime": "2025-03-05T11:55:06.000+00:00",
+      "authorizedTime": "2025-03-01T05:23:18.000+00:00",
+      "complete": false,
+      "pointsAwarded": 0,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 30.2,
+      "transactedAmount": 29.9,
+      "fees": 0.3,
+      "foreignExchangeFee": 0.3,
+      "receiptStatus": "NOT_ATTACHED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5816",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MjcwOWE4N2UtMjUzMy00ZDExLWFjZDQtODAxOGExYWI3Zjc0",
+      "uuid": "txr_4s4qgvh56d6h3b6kg0ca3arveg",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "CLEAR",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "Amazon.com*WK5UL0OU3",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "originalAuthTransactionId": "VHJhbnNhY3Rpb246YzllNDNiOGYtYjczYy00Y2U3LTk3OTQtODJjN2I3YjRiNGI3",
+      "originalAuthTransactionUuid": "txr_p7i3n3tn7h6ef5skgb3rfd5kms",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "652",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-04T12:17:51.000+00:00",
+      "updatedTime": "2025-03-04T12:17:52.000+00:00",
+      "authorizedTime": "2025-03-03T17:06:51.000+00:00",
+      "complete": false,
+      "pointsAwarded": 6,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 6.52,
+      "transactedAmount": 6.52,
+      "fees": 0.0,
+      "foreignExchangeFee": 0.0,
+      "receiptStatus": "NOT_ATTACHED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MDZlMmE4NjctZmJlNC00ZTc5LWFiNzUtMzAyZmJmM2E3YTdh",
+      "uuid": "txr_0rhagpvrsh77jarl60nruejqf8",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "DECLINE",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPLACE PMTS",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "8705",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-04T02:27:22.000+00:00",
+      "updatedTime": "2025-03-04T02:27:25.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 87.05,
+      "transactedAmount": 87.05,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "declineReason": "Insufficient company funds. Please contact your admin.",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246OWIzNzRlMDEtM2M5Mi00ZTE3LWI0MzctMWI3ZDYwYjNkZjdh",
+      "uuid": "txr_jcrks09si971fd1n3dum1cuvf8",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "DECLINE",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPLACE PMTS",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "42240",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-04T00:24:21.000+00:00",
+      "updatedTime": "2025-03-04T00:24:24.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 422.4,
+      "transactedAmount": 422.4,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "declineReason": "Insufficient company funds. Please contact your admin.",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246YWQ2MTc5MDgtZmNiOS00YWRiLWIyNzEtMDU1ZWVlODYwYjEw",
+      "uuid": "txr_llgni27sn55dncjh0lfet1gb20",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "DECLINE",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "ZOOM.COM 888-799-966",
+      "merchantName": "Zoom.com",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "1637",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-04T00:21:59.000+00:00",
+      "updatedTime": "2025-03-04T00:22:04.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 16.37,
+      "transactedAmount": 16.37,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "4814",
+      "declineReason": "Insufficient company funds. Please contact your admin.",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246MmFlZTc0YzAtMWVkYi00OGNlLTliMWItNjkxZDViMjE4NzA5",
+      "uuid": "txr_5bn79g0urd4ct6ord4elm8c714",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "DECLINE",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "AMAZON MKTPLACE PMTS",
+      "merchantName": "Amazon",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "12184",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-03T22:26:03.000+00:00",
+      "updatedTime": "2025-03-03T22:26:04.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 121.84,
+      "transactedAmount": 121.84,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5942",
+      "declineReason": "Insufficient company funds. Please contact your admin.",
+      "cardPresent": false
+    },
+    {
+      "id": "VHJhbnNhY3Rpb246OWUzZjVlNGEtZTBjMS00YzAwLTliZWUtYTA4ZWQ5NzkzNjZj",
+      "uuid": "txr_jovlsin0o56016vek27diu9mdg",
+      "childTransactionIds": [],
+      "childTransactionUuids": [],
+      "isLocked": false,
+      "isReconciled": true,
+      "transactionType": "DECLINE",
+      "userId": "VXNlcjo3MDM0MTc=",
+      "userUuid": "usr_pr6shlo6nt4gj4pmslc9amomfc",
+      "rawMerchantName": "B AND J FLORIST SUPPLIES",
+      "merchantName": "B and J Florist Supplies",
+      "budgetId": "QnVkZ2V0OjM2MTYxMA==",
+      "budgetUuid": "bgt_nvp6mim36513h7qmhac4gh728c",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "27001",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "receiptRequired": false,
+      "reviewRequired": false,
+      "occurredTime": "2025-03-03T20:19:15.000+00:00",
+      "updatedTime": "2025-03-03T20:19:18.000+00:00",
+      "complete": false,
+      "tags": [
+        {
+          "isRequired": true,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Category"
+          }
+        },
+        {
+          "isRequired": false,
+          "selectedTagValues": [],
+          "tagType": {
+            "name": "Notes"
+          }
+        }
+      ],
+      "customFields": [
+        {
+          "id": "VGFnVHlwZToxODE2NzM=",
+          "uuid": "tty_35jflvp0ed7vv0rib1s99m9rcc",
+          "name": "Category",
+          "isRequired": true,
+          "selectedValues": []
+        },
+        {
+          "id": "VGFnVHlwZToxODE2NzQ=",
+          "uuid": "tty_qlr2vke8th0kb6srs0vol7di0s",
+          "name": "Notes",
+          "isRequired": false,
+          "selectedValues": []
+        }
+      ],
+      "network": "VISA",
+      "isParent": false,
+      "reviews": [],
+      "amount": 270.01,
+      "transactedAmount": 270.01,
+      "fees": 0.0,
+      "receiptStatus": "NOT_REQUIRED",
+      "reviewers": [
+        {
+          "approverType": "BUDGET_OWNER",
+          "status": "WAITING"
+        },
+        {
+          "approverType": "ADMIN",
+          "status": "WAITING"
+        }
+      ],
+      "cardId": "Q2FyZDo3ODQ4MzE1",
+      "cardUuid": "crd_hin0e7s0nt2areoak078999g54",
+      "receiptSyncStatus": "NO_ATTACHMENTS",
+      "merchantCategoryCode": "5992",
+      "declineReason": "Insufficient company funds. Please contact your admin.",
+      "cardPresent": true,
+      "merchantLocation": {
+        "city": "NEW YORK",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "US"
+      }
+    }
+  ],
+  "spend_by_category": {
+    "5942": {
+      "total": 1070.77,
+      "merchants": [
+        "Amazon"
+      ]
+    },
+    "5992": {
+      "total": 783.9,
+      "merchants": [
+        "Jamali Garden"
+      ]
+    },
+    "4814": {
+      "total": 16.37,
+      "merchants": [
+        "Zoom.com"
+      ]
+    },
+    "5734": {
+      "total": 39.39,
+      "merchants": [
+        "Magnific Ai"
+      ]
+    },
+    "5816": {
+      "total": 30.2,
+      "merchants": [
+        "Live.com"
+      ]
+    }
+  },
+  "start_date": "2025-02-13T21:24:17.323691+00:00",
+  "end_date": "2025-03-15T21:24:17.323691+00:00"
+}

@@ -77,11 +77,6 @@ export async function getLatestMetrics(): Promise<DashboardData> {
                 value: Number(metrics.operational_expenses) || 0,
                 label: 'Operational Expenses',
                 prefix: '$'
-            },
-            yadinExpenses: {
-                value: 40,
-                label: 'Yadin Expenses',
-                prefix: '$'
             }
         },
         charts: {

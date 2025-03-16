@@ -1,7 +1,12 @@
 {
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
   "functions": {
     "app/api/proxy/route.ts": {
       "maxDuration": 60
     }
-  }
+  },
+  "outputDirectory": ".next"
 } 

@@ -11,12 +11,16 @@ ENV_FILE="$BASE_DIR/.env"
 MAIN_SCRIPT="$BASE_DIR/src/main.py"
 TIMESTAMP=$(date '+%Y-%m-%d_%H-%M-%S')
 LOG_FILE="$LOG_DIR/cron_$TIMESTAMP.log"
+DEBUG_LOG_FILE="$LOG_DIR/debug_$TIMESTAMP.log"
 
 # Create logs directory if it doesn't exist
 mkdir -p "$LOG_DIR"
 
 # Set proper permissions
 chmod 755 "$LOG_DIR"
+
+# Export debug log file path
+export DEBUG_LOG_FILE="$DEBUG_LOG_FILE"
 
 # Start logging
 exec 1> >(tee -a "${LOG_FILE}")
@@ -25,6 +29,7 @@ exec 2> >(tee -a "${LOG_FILE}" >&2)
 echo "=== Starting Maayan Dashboard Cron Job ==="
 echo "Timestamp: $(date)"
 echo "Log file: ${LOG_FILE}"
+echo "Debug log file: ${DEBUG_LOG_FILE}"
 
 # Function to check if environment variable exists
 check_env_var() {
@@ -70,11 +75,34 @@ echo "Using Python: $(which python3)"
 echo "PYTHONPATH: $PYTHONPATH"
 
 echo "=== Running Main Script ==="
-python3 "$MAIN_SCRIPT"
-echo "=== Main Script Completed ==="
 
+# Run with additional debug logging
+PYTHONPATH="$BASE_DIR" python3 -c "
+import logging
+import json
+import os
+from src.main import main
+
+# Set up debug logging
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(os.environ.get('DEBUG_LOG_FILE')),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger()
+
+# Run main with debug logging
+metrics = main()
+"
+
+echo "=== Main Script Completed ==="
+echo "=== Debug Logs Location: ${DEBUG_LOG_FILE} ==="
 echo "=== Cron Job Finished ==="
 echo "Timestamp: $(date)"
 
-# Create a symlink to the latest log
-ln -sf "${LOG_FILE}" "$LOG_DIR/cron_latest.log" 
+# Create symlinks to the latest logs
+ln -sf "${LOG_FILE}" "$LOG_DIR/cron_latest.log"
+ln -sf "${DEBUG_LOG_FILE}" "$LOG_DIR/debug_latest.log" 

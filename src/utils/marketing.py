@@ -15,10 +15,10 @@ def get_project_root() -> Path:
 
 def get_influencer_spend() -> float:
     """
-    Read the influencer spend from the text file
+    Read the influencer spend from the text file and sum up all comma-separated numbers
     
     Returns:
-        float: Influencer spend in USD, 0 if file not found or invalid
+        float: Total influencer spend in USD, 0 if file not found or invalid
     """
     try:
         spend_file = get_project_root() / 'influencerspend.txt'
@@ -26,10 +26,18 @@ def get_influencer_spend() -> float:
             logger.warning("influencerspend.txt not found, using 0")
             return 0.0
             
+        total_spend = 0.0
         with open(spend_file, 'r') as f:
-            spend = float(f.read().strip())
-            logger.info(f"Read influencer spend: ${spend:.2f}")
-            return spend
+            content = f.read().strip()
+            # Split by commas and process each number
+            for num in content.split(','):
+                if num.strip():  # Skip empty values
+                    spend = float(num.strip())
+                    total_spend += spend
+                    logger.info(f"Added spend: ${spend:.2f}")
+            
+        logger.info(f"Total influencer spend: ${total_spend:.2f}")
+        return total_spend
             
     except (FileNotFoundError, ValueError) as e:
         logger.error(f"Error reading influencer spend: {str(e)}")

@@ -10,6 +10,7 @@ export interface GeckoboardMetrics {
   paid_ads_spend: number;            // in cents
   historical_spend: number;          // in cents
   net_revenue: number;               // in cents
+  operational_expenses: number;      // in dollars
 }
 
 export interface DailyRevenue {
@@ -45,6 +46,7 @@ export interface DashboardData {
     customerAcquisitionCost: MetricData;
     tickets: MetricData;
     revenue: MetricData;
+    operationalExpenses: MetricData;
   };
   charts: {
     barChart: TimeseriesData[];
@@ -126,6 +128,11 @@ export function transformGeckoboardData(data: GeckoboardMetrics): Partial<Dashbo
     revenue: { 
       value: centsToDollars(data.revenue_after_stripe), 
       label: 'Revenue', 
+      prefix: '$' 
+    },
+    operationalExpenses: { 
+      value: data.operational_expenses, // Direct value since it's already in dollars
+      label: 'Operational Expenses', 
       prefix: '$' 
     }
   };

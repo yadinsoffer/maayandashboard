@@ -7,7 +7,8 @@ class Config:
     REQUIRED_ENV_VARS = {
         'YADIN_FACEBOOK_ADS_TOKEN': 'Facebook Ads API token',
         'LUMA_API_KEY': 'Luma API key',
-        'GECKOBOARD_API_KEY': 'Geckoboard API key'
+        'GECKOBOARD_API_KEY': 'Geckoboard API key',
+        'DIVVY_API_TOKEN': 'Divvy API token'
     }
     
     # Vercel API Configuration
@@ -22,7 +23,8 @@ class Config:
             'YADIN_FACEBOOK_ADS_TOKEN',
             'LUMA_API_KEY',
             'VERCEL_API_URL',
-            'API_KEY'
+            'API_KEY',
+            'DIVVY_API_TOKEN'
         ]
         for var in required_vars:
             if not os.getenv(var):

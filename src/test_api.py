@@ -36,6 +36,7 @@ def generate_test_data():
     total_spend = 5000  # Example marketing spend
     total_revenue = sum(d["grossRevenue"] for d in daily_metrics)
     total_guests = accumulated_guests
+    operational_expenses = 2166.91  # Match the value from Divvy
     
     return {
         "metrics": {
@@ -47,7 +48,8 @@ def generate_test_data():
             "customerLifetimeValue": {"value": total_revenue / total_guests, "label": "Customer Lifetime Value", "prefix": "$"},
             "customerAcquisitionCost": {"value": total_spend / total_guests, "label": "Customer Acquisition Cost", "prefix": "$"},
             "tickets": {"value": total_guests, "label": "Tickets"},
-            "revenue": {"value": total_revenue, "label": "Revenue", "prefix": "$"}
+            "revenue": {"value": total_revenue, "label": "Revenue", "prefix": "$"},
+            "operationalExpenses": {"value": operational_expenses, "label": "Operational Expenses", "prefix": "$"}
         },
         "dailyMetrics": daily_metrics
     }

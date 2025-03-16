@@ -4,6 +4,7 @@ Data collectors for different sources
 
 from abc import ABC, abstractmethod
 from typing import Dict, Any
+from .divvy_collector import DivvyCollector
 
 class DataCollector(ABC):
     """Base interface for all data collectors"""
@@ -30,3 +31,5 @@ class DataCollector(ABC):
             bool: True if data is valid, False otherwise
         """
         pass
+
+__all__ = ['DataCollector', 'DivvyCollector']

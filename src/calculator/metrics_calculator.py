@@ -7,6 +7,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from src.utils.logger import setup_logger
 from src.utils.marketing import get_influencer_spend, get_historical_spend
+import json
 
 logger = setup_logger('metrics_calculator')
 
@@ -24,15 +25,16 @@ class MetricsCalculator:
         # Get marketing spend components
         self.influencer_spend = get_influencer_spend()
         self.historical_spend = get_historical_spend()
-    
-    def calculate_metrics(self, fb_data: Dict[str, Any], luma_data: Dict[str, Any], bucketlister_tickets: Dict[str, int]) -> Dict[str, Any]:
+        
+    def calculate_metrics(self, fb_data: Dict[str, Any], luma_data: Dict[str, Any], bucketlister_tickets: Dict[str, int], divvy_data: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Calculate combined metrics from Facebook Ads and Luma data
+        Calculate combined metrics from all data sources
         
         Args:
             fb_data: Data from Facebook Ads collector
             luma_data: Data from Luma collector
             bucketlister_tickets: Dictionary of daily tickets sold from Bucketlister
+            divvy_data: Data from Divvy collector
             
         Returns:
             Dict containing calculated metrics
@@ -68,6 +70,15 @@ class MetricsCalculator:
             # Get average LTV from Luma data
             average_ltv = luma_data.get('average_ltv', 0)  # Already in cents
             
+            # Get operational expenses from Divvy data
+            operational_expenses = divvy_data.get('total_spend', 0)
+            self.logger.info(f"Total operational expenses from Divvy: ${operational_expenses:.2f}")
+            
+            # Add debug logging for Divvy data
+            self.logger.info("Divvy data received:")
+            self.logger.info(f"Raw Divvy data: {json.dumps(divvy_data, indent=2)}")
+            self.logger.info(f"Operational expenses type: {type(operational_expenses)}")
+            
             # Log spend breakdown
             self.logger.info(f"Facebook Ads spend: ${fb_spend:.2f}")
             self.logger.info(f"Historical spend (added to paid ads): ${self.historical_spend:.2f}")
@@ -95,7 +106,8 @@ class MetricsCalculator:
                     'facebookSpend': fb_spend,
                     'paidAdsSpend': paid_ads_spend,
                     'historicalSpend': 0,  # Set to 0 since it's now part of paid_ads_spend
-                    'averageLtv': average_ltv / 100  # Convert to dollars
+                    'averageLtv': average_ltv / 100,  # Convert to dollars
+                    'operationalExpenses': operational_expenses  # Add operational expenses from Divvy
                 },
                 'facebook_metrics': {
                     'total_ads_count': fb_data['total_ads_count'],

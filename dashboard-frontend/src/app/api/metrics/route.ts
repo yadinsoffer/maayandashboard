@@ -10,18 +10,13 @@ export async function GET() {
         console.log('Metrics object from getLatestMetrics:', metrics);
         console.log('Operational expenses in metrics:', metrics.metrics.operationalExpenses);
         
-        // Ensure all required metrics are explicitly included in the response
+        // Ensure operationalExpenses is explicitly included in the response
         const response = {
             metrics: {
                 ...metrics.metrics,
                 operationalExpenses: metrics.metrics.operationalExpenses || {
                     value: 0,
                     label: 'Operational Expenses',
-                    prefix: '$'
-                },
-                yadinExpenses: {
-                    value: 40,
-                    label: 'Yadin Expenses',
                     prefix: '$'
                 }
             },
