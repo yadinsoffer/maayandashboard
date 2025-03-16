@@ -15,6 +15,8 @@ export interface Metrics {
   customerAcquisitionCost: MetricValue;
   tickets: MetricValue;
   revenue: MetricValue;
+  operationalExpenses: MetricValue;
+  yadinExpenses: MetricValue;
 }
 
 export interface ChartDataPoint {
@@ -46,4 +48,4 @@ export interface MetricCardProps {
 export interface ChartProps {
   data: ChartDataPoint[];
   className?: string;
-} 
+}
